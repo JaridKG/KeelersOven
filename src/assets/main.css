@@ -1,0 +1,197 @@
+/* Keelers Oven — brand styles
+   Palette from the Keelers Oven brand board:
+   dark brown, mid brown, tan, cream, warm gray */
+
+:root {
+  --brown-dark: #2e2318;
+  --brown: #6b4f35;
+  --tan: #c3a482;
+  --cream: #faf5ea;
+  --cream-deep: #f1e7d4;
+  --gray: #8d8d8d;
+  --ink: #2e2318;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--cream);
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+/* Header & navigation */
+
+header {
+  background: var(--cream);
+  color: var(--brown-dark);
+  padding: 1.75rem 1rem 0.75rem;
+  text-align: center;
+}
+
+.logo {
+  max-height: 180px;
+  max-width: 90%;
+}
+
+header .tagline {
+  font-style: italic;
+  color: var(--brown);
+  letter-spacing: 0.04em;
+}
+
+nav {
+  background: var(--cream);
+  border-top: 1px solid var(--cream-deep);
+  border-bottom: 2px solid var(--brown-dark);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  display: block;
+  color: var(--brown-dark);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.95rem;
+}
+
+nav a:hover,
+nav a.router-link-exact-active {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 2px;
+  color: var(--brown);
+}
+
+/* Layout */
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  color: var(--brown-dark);
+  border-bottom: 2px solid var(--tan);
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: var(--brown);
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--brown);
+}
+
+/* Product cards */
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.card {
+  background: #fffdf8;
+  border: 1px solid var(--cream-deep);
+  border-radius: 10px;
+  padding: 1.25rem;
+  box-shadow: 0 2px 5px rgba(46, 35, 24, 0.08);
+}
+
+.card .price {
+  font-weight: bold;
+  color: var(--brown);
+}
+
+/* Markets table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fffdf8;
+}
+
+th,
+td {
+  border: 1px solid var(--cream-deep);
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+}
+
+th {
+  background: var(--cream-deep);
+  color: var(--brown-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+}
+
+tr:nth-child(even) td {
+  background: var(--cream);
+}
+
+/* Contact */
+
+.contact-list {
+  list-style: none;
+}
+
+.contact-list li {
+  margin-bottom: 0.6rem;
+}
+
+.contact-list strong {
+  color: var(--brown-dark);
+}
+
+/* Footer */
+
+footer {
+  background: var(--brown-dark);
+  color: var(--cream);
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: var(--tan);
+}
+
+.footer-tagline {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.8rem;
+  color: var(--tan);
+  margin-top: 0.4rem;
+}
+
+footer p {
+  margin-bottom: 0.25rem;
+}
