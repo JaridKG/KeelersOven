@@ -37,7 +37,7 @@ function unlock() {
 <template>
   <div v-if="!unlocked" class="lock-screen">
     <img :src="logoUrl" alt="Keelers Oven" class="logo">
-    <p class="tagline">Homemade cookies. Made to share.</p>
+    <p class="tagline">Homemade cookies. Made to share &mdash; but you won't want to.</p>
     <p>We're still warming up the oven — this site is in private preview.</p>
     <form @submit.prevent="unlock">
       <label for="site-password">Password</label>
@@ -50,7 +50,7 @@ function unlock() {
   <template v-else>
     <header>
       <h1><img :src="logoUrl" alt="Keelers Oven" class="logo"></h1>
-      <p class="tagline">Homemade cookies. Made to share.</p>
+      <p class="tagline">Homemade cookies. Made to share &mdash; but you won't want to.</p>
     </header>
 
     <nav>
