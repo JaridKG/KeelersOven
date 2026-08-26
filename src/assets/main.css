@@ -170,6 +170,70 @@ tr:nth-child(even) td {
   color: var(--brown-dark);
 }
 
+/* Lock screen */
+
+.lock-screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 1rem;
+  gap: 0.5rem;
+}
+
+.lock-screen form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.75rem;
+}
+
+.lock-screen label {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  color: var(--brown-dark);
+}
+
+.lock-screen input {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--tan);
+  border-radius: 6px;
+  background: #fffdf8;
+  font-size: 1rem;
+  color: var(--ink);
+}
+
+.lock-screen input:focus {
+  outline: 2px solid var(--brown);
+}
+
+.lock-screen button {
+  padding: 0.5rem 1.4rem;
+  border: none;
+  border-radius: 999px;
+  background: var(--brown-dark);
+  color: var(--cream);
+  font-family: inherit;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+}
+
+.lock-screen button:hover {
+  background: var(--brown);
+}
+
+.lock-error {
+  color: #a3402e;
+  font-style: italic;
+}
+
 /* Footer */
 
 footer {

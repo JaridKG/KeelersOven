@@ -1,8 +1,8 @@
 <template>
   <section>
     <h2>Welcome</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Keelers Oven is a small-batch home bakery dedicated to honest ingredients and old-fashioned technique. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, every loaf and cookie made by hand.</p>
-    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+    <p>Keelers Oven is a small-batch home bakery built on honest ingredients and old-fashioned technique. Every loaf, cookie, and pastry is mixed, shaped, and baked by hand — no shortcuts, no preservatives, just the way it should be.</p>
+    <p>What started as weekend baking for family and friends has grown into a table at your local farmers market. We keep our batches small so everything you take home was baked that morning.</p>
   </section>
 
   <section>

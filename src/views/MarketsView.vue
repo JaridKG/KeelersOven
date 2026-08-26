@@ -34,7 +34,7 @@ const markets = [
 <template>
   <section>
     <h2>Find Us at a Farmers Market</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. We set up our tent rain or shine — look for the Keelers Oven banner and the smell of fresh bread. Schedules can shift for holidays and weather, sed do eiusmod tempor incididunt.</p>
+    <p>We set up our tent rain or shine — look for the Keelers Oven banner and follow the smell of fresh bread. Schedules can shift for holidays and severe weather, so check our social pages before you head out.</p>
 
     <table>
       <thead>
@@ -61,7 +61,7 @@ const markets = [
   <section>
     <h2>Pre-Orders for Pickup</h2>
     <p>
-      Want to guarantee your loaf? Ut enim ad minim veniam, quis nostrud exercitation —
+      Want to guarantee your loaf? Popular items sell out fast —
       <RouterLink to="/contact">send us a message</RouterLink> by Thursday evening and we'll have your order
       set aside at the market of your choice.
     </p>

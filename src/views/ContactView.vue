@@ -1,7 +1,7 @@
 <template>
   <section>
     <h2>Get in Touch</h2>
-    <p>Questions, custom orders, or market pre-orders — we'd love to hear from you. Lorem ipsum dolor sit amet, consectetur adipiscing elit, we typically reply within one business day.</p>
+    <p>Questions, custom orders, or market pre-orders — we'd love to hear from you. We typically reply within one business day.</p>
 
     <ul class="contact-list">
       <li><strong>Email:</strong> hello@keelersoven.example.com</li>
@@ -13,11 +13,11 @@
 
   <section>
     <h2>Custom Order Requests</h2>
-    <p>For custom orders, please include what you'd like, how many, and your preferred pickup market and date. Sed ut perspiciatis unde omnis iste natus — one week's notice lets us plan our bakes.</p>
+    <p>For custom orders, please include what you'd like, how many, and your preferred pickup market and date. One week's notice lets us plan our bakes and make sure your order is ready.</p>
   </section>
 
   <section>
     <h2>Where We Bake</h2>
-    <p>Keelers Oven is a licensed home bakery operating under state cottage food regulations. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    <p>Keelers Oven is a licensed home bakery operating under state cottage food regulations. Everything is made in our home kitchen, clearly labeled, and baked fresh for each market day.</p>
   </section>
 </template>
